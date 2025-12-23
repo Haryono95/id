@@ -19,95 +19,132 @@
 <!-- ===== NAVBAR MODERN ===== -->
 <nav class="bg-white/95 backdrop-blur-sm shadow-lg fixed top-0 w-full z-50 border-b border-gray-100">
   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-    <!-- Logo Section -->
-    <div class="flex items-center gap-3 group">
+    <!-- Logo Section - Updated to match footer -->
+    <a href="#home" class="flex items-center gap-3 group">
       <div class="relative">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUDKNCi25kQBICg0zVurBt8aTkuYKhJsETipIt0UWcMrZgdS77zeo679YWZTKsNGpqulBGHFrZAEqIicIyK5G-MIgbtDxMd48VsgonZWqTliXLP5qqVC-VGXzl_vtHKRVIxL-CoYSZkV9kn2luD6fQs7RrX0QnC10GDSRl8J3-or6IlQIAT7ZwDmufTanl/s16000/Jualme_Logo-%20rev%2012%20Juli%202023.png" 
-             alt="Bizpage Logo" 
-             class="h-10 w-auto transform group-hover:scale-105 transition-transform duration-300">
-        <div class="absolute inset-0 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors duration-300"></div>
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center transform group-hover:scale-105 transition-transform duration-300">
+          <i class="fas fa-cube text-white text-lg"></i>
+        </div>
+        <div class="absolute inset-0 bg-blue-500/10 rounded-xl group-hover:bg-blue-500/20 transition-colors duration-300"></div>
       </div>
       <div class="flex flex-col">
-        <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Bizpage</span>
-        <span class="text-xs text-gray-500 font-medium">Creative Agency</span>
+        <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent group-hover:from-blue-700 group-hover:to-blue-900 transition-all duration-300">
+          Bizpage Digital
+        </span>
+        <span class="text-xs text-gray-500 font-medium group-hover:text-blue-600 transition-colors duration-300">
+          Solution for Your Business
+        </span>
       </div>
-    </div>
+    </a>
 
     <!-- Desktop Navigation -->
     <div class="hidden md:flex items-center space-x-1">
       <a href="#home" 
-         class="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-colors duration-300 group/nav">
-        <span>Home</span>
-        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-600 group-hover/nav:w-3/4 transition-all duration-300"></span>
+         class="relative px-5 py-2.5 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-all duration-300 group/nav">
+        <i class="fas fa-home text-sm mr-2 opacity-60"></i>
+        <span class="text-base" style="font-size: 15px;">Home</span>
+        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 group-hover/nav:w-4/5 transition-all duration-500"></span>
       </a>
       
       <a href="#about" 
-         class="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-colors duration-300 group/nav">
-        <span>Tentang Kami</span>
-        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-600 group-hover/nav:w-3/4 transition-all duration-300"></span>
+         class="relative px-5 py-2.5 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-all duration-300 group/nav">
+        <i class="fas fa-info-circle text-sm mr-2 opacity-60"></i>
+        <span class="text-base" style="font-size: 15px;">Tentang Kami</span>
+        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 group-hover/nav:w-4/5 transition-all duration-500"></span>
       </a>
       
       <a href="#services" 
-         class="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-colors duration-300 group/nav">
-        <span>Layanan</span>
-        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-600 group-hover/nav:w-3/4 transition-all duration-300"></span>
+         class="relative px-5 py-2.5 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-all duration-300 group/nav">
+        <i class="fas fa-cogs text-sm mr-2 opacity-60"></i>
+        <span class="text-base" style="font-size: 15px;">Layanan</span>
+        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 group-hover/nav:w-4/5 transition-all duration-500"></span>
       </a>
       
       <a href="#gallery" 
-         class="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-colors duration-300 group/nav">
-        <span>Galeri</span>
-        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-600 group-hover/nav:w-3/4 transition-all duration-300"></span>
+         class="relative px-5 py-2.5 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition-all duration-300 group/nav">
+        <i class="fas fa-images text-sm mr-2 opacity-60"></i>
+        <span class="text-base" style="font-size: 15px;">Galeri</span>
+        <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 group-hover/nav:w-4/5 transition-all duration-500"></span>
       </a>
       
-      <div class="h-6 w-px bg-gray-300 mx-2"></div>
+      <div class="h-8 w-px bg-gradient-to-b from-transparent via-gray-300 to-transparent mx-2"></div>
       
       <a href="#contact"
-         class="relative px-6 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 group/cta">
-        <span>Hubungi Kami</span>
-        <svg class="w-4 h-4 inline-block ml-2 transform group-hover/cta:translate-x-1 transition-transform duration-300" 
-             fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-        </svg>
-        <span class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-700 to-blue-800 opacity-0 group-hover/cta:opacity-100 blur transition-opacity duration-300 -z-10"></span>
+         class="relative px-7 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 group/cta">
+        <i class="fab fa-whatsapp text-lg mr-2"></i>
+        <span class="text-base" style="font-size: 15px;">Hubungi Kami</span>
+        <i class="fas fa-arrow-right text-sm ml-2 transform group-hover/cta:translate-x-1 transition-transform duration-300"></i>
+        <span class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-700 to-blue-800 opacity-0 group-hover/cta:opacity-100 blur-lg transition-opacity duration-500 -z-10"></span>
       </a>
     </div>
 
     <!-- Mobile Menu Button -->
-    <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300">
-      <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <button id="mobile-menu-button" class="md:hidden p-2.5 rounded-xl hover:bg-blue-50 transition-all duration-300 group/menu">
+      <svg class="w-7 h-7 text-gray-700 group-hover/menu:text-blue-600 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
       </svg>
     </button>
   </div>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="md:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-gray-100 hidden">
-    <div class="container mx-auto px-6 py-4">
-      <div class="flex flex-col space-y-1">
+  <div id="mobile-menu" class="md:hidden absolute top-full left-0 right-0 bg-white shadow-2xl border-t border-gray-100 hidden backdrop-blur-sm">
+    <div class="container mx-auto px-6 py-6">
+      <div class="flex flex-col space-y-2">
         <a href="#home" 
-           class="px-4 py-3 text-gray-700 font-medium rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-          Home
+           class="flex items-center gap-3 px-5 py-4 text-gray-700 font-medium rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 group/mobile">
+          <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center group-hover/mobile:bg-blue-100 transition-colors duration-300">
+            <i class="fas fa-home text-blue-600"></i>
+          </div>
+          <div>
+            <span class="text-base block" style="font-size: 16px;">Home</span>
+            <span class="text-xs text-gray-500">Beranda utama</span>
+          </div>
         </a>
         
         <a href="#about" 
-           class="px-4 py-3 text-gray-700 font-medium rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-          Tentang Kami
+           class="flex items-center gap-3 px-5 py-4 text-gray-700 font-medium rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 group/mobile">
+          <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center group-hover/mobile:bg-blue-100 transition-colors duration-300">
+            <i class="fas fa-info-circle text-blue-600"></i>
+          </div>
+          <div>
+            <span class="text-base block" style="font-size: 16px;">Tentang Kami</span>
+            <span class="text-xs text-gray-500">Profil perusahaan</span>
+          </div>
         </a>
         
         <a href="#services" 
-           class="px-4 py-3 text-gray-700 font-medium rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-          Layanan
+           class="flex items-center gap-3 px-5 py-4 text-gray-700 font-medium rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 group/mobile">
+          <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center group-hover/mobile:bg-blue-100 transition-colors duration-300">
+            <i class="fas fa-cogs text-blue-600"></i>
+          </div>
+          <div>
+            <span class="text-base block" style="font-size: 16px;">Layanan</span>
+            <span class="text-xs text-gray-500">Solusi digital kami</span>
+          </div>
         </a>
         
         <a href="#gallery" 
-           class="px-4 py-3 text-gray-700 font-medium rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-          Galeri
+           class="flex items-center gap-3 px-5 py-4 text-gray-700 font-medium rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 group/mobile">
+          <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center group-hover/mobile:bg-blue-100 transition-colors duration-300">
+            <i class="fas fa-images text-blue-600"></i>
+          </div>
+          <div>
+            <span class="text-base block" style="font-size: 16px;">Galeri</span>
+            <span class="text-xs text-gray-500">Portofolio kami</span>
+          </div>
         </a>
         
-        <a href="#contact"
-           class="mt-4 px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium rounded-lg text-center hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-md">
-          Hubungi Kami
-        </a>
+        <div class="pt-4">
+          <a href="#contact"
+             class="flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg">
+            <i class="fab fa-whatsapp text-xl"></i>
+            <span class="text-base" style="font-size: 16px;">Hubungi via WhatsApp</span>
+            <i class="fas fa-arrow-right text-sm"></i>
+          </a>
+          <p class="text-center text-xs text-gray-500 mt-3">
+            Respon cepat dalam 5 menit
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -123,8 +160,10 @@
     const icon = this.querySelector('svg');
     if (mobileMenu.classList.contains('hidden')) {
       icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+      this.classList.remove('bg-blue-100');
     } else {
       icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
+      this.classList.add('bg-blue-100');
     }
   });
 
@@ -137,10 +176,55 @@
         !mobileMenu.contains(event.target) && 
         !menuButton.contains(event.target)) {
       mobileMenu.classList.add('hidden');
-      menuButton.querySelector('svg').innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+      const icon = menuButton.querySelector('svg');
+      icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+      menuButton.classList.remove('bg-blue-100');
     }
   });
+
+  // Add active class to current section
+  window.addEventListener('scroll', function() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    let current = '';
+    
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      
+      if (scrollY >= (sectionTop - 100)) {
+        current = section.getAttribute('id');
+      }
+    });
+    
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === `#${current}`) {
+        link.classList.add('active');
+      }
+    });
+  });
 </script>
+
+<style>
+  .nav-link.active {
+    color: #2563eb; /* blue-600 */
+    font-weight: 600;
+  }
+  
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60% !important;
+    height: 2px;
+    background: linear-gradient(to right, #3b82f6, #1d4ed8);
+    border-radius: 2px;
+  }
+</style>
 
 <!-- ===== HERO / COVER ===== -->
 <section id="home" class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
