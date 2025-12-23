@@ -227,39 +227,33 @@
 </style>
 
 <!-- ===== HERO / COVER MODERN ===== -->
-<section id="home" class="pt-36 pb-28 bg-gradient-to-br from-white via-blue-50/30 to-blue-100/20 relative overflow-hidden">
-  <!-- Background Elements -->
-  <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-    <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-400/5 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/3 rounded-full blur-3xl"></div>
-    <div class="absolute top-1/2 right-1/3 w-64 h-64 bg-blue-500/4 rounded-full blur-3xl"></div>
+<section id="home" class="pt-36 pb-28 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white relative overflow-hidden">
+  <!-- Background Image with Overlay -->
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+         alt="Digital Marketing Agency Team Collaboration"
+         class="w-full h-full object-cover opacity-20">
+    <div class="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-700/60"></div>
   </div>
 
   <div class="container mx-auto px-6 relative z-10">
     <!-- Badge -->
-    <div class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-8 shadow-sm hover:shadow-md transition-shadow duration-300">
-      <i class="fas fa-building text-blue-600"></i>
+    <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white px-5 py-2.5 rounded-full text-sm font-semibold mb-8 border border-white/30">
+      <i class="fas fa-building"></i>
       <span>PT Bertravel Media Internasional</span>
     </div>
 
     <!-- Main Headline -->
-    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
-      <span class="text-gray-900">Transformasi Digital</span>
-      <span class="block md:inline">
-        <span class="text-gray-900"> untuk </span>
-        <span class="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 bg-clip-text text-transparent">
-          Pertumbuhan Bisnis
-        </span>
-      </span>
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight max-w-3xl mx-auto">
+      Solusi Publikasi &<br>
+      <span class="text-blue-200">Digital Marketing</span>
+      <span class="text-white"> Terpercaya</span>
     </h1>
 
-    <!-- SEO-Optimized Description -->
-    <div class="max-w-3xl mx-auto mb-12">
-      <p class="text-xl md:text-2xl text-gray-700 leading-relaxed mb-6 font-medium" style="font-size: 20px; line-height: 1.8;">
-        Bizpage Agency menyediakan <strong class="text-blue-700">jasa publikasi usaha, brand activation, artikel SEO website, backlink berkualitas, pengelolaan website bisnis, dan optimasi personal branding</strong> untuk membantu bisnis Anda bersaing di era digital.
-      </p>
-      <p class="text-gray-600 leading-relaxed text-base" style="font-size: 17px; line-height: 1.8;">
-        Sebagai bagian dari PT Bertravel Media Internasional, kami berkomitmen memberikan solusi digital marketing terbaik yang meningkatkan visibilitas, traffic, dan konversi bisnis Anda di Pekanbaru, Riau, dan seluruh Indonesia.
+    <!-- Description -->
+    <div class="max-w-2xl mx-auto mb-12">
+      <p class="text-xl text-blue-100 leading-relaxed mb-6" style="font-size: 18px; line-height: 1.8;">
+        Bizpage membantu <strong class="text-white">UMKM dan perusahaan</strong> meningkatkan visibilitas bisnis melalui layanan publikasi digital, SEO, dan pembuatan website profesional di Pekanbaru dan seluruh Indonesia.
       </p>
     </div>
 
@@ -267,54 +261,73 @@
     <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
       <a href="https://wa.me/6285211724490?text=Halo%20Bizpage%20Digital,%20saya%20ingin%20konsultasi%20tentang%20layanan%20digital%20marketing%20untuk%20bisnis%20saya"
          target="_blank"
-         class="group relative bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-5 rounded-full font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-1">
+         class="group relative bg-white text-blue-700 hover:bg-blue-50 px-10 py-5 rounded-full font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-1">
         <div class="flex items-center justify-center gap-3">
           <i class="fab fa-whatsapp text-2xl"></i>
-          <span>Konsultasi Gratis via WhatsApp</span>
+          <span>Chat WhatsApp Sekarang</span>
         </div>
-        <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-700 to-blue-900 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 -z-10"></div>
+        <div class="absolute inset-0 rounded-full bg-blue-100 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 -z-10"></div>
       </a>
 
       <a href="#services"
-         class="group flex items-center gap-3 text-blue-700 hover:text-blue-800 font-semibold px-8 py-5 rounded-full border-2 border-blue-200 hover:border-blue-300 bg-white/50 backdrop-blur-sm hover:bg-blue-50 transition-all duration-300">
+         class="group flex items-center gap-3 text-white hover:text-blue-200 font-semibold px-8 py-5 rounded-full border-2 border-white/30 hover:border-white/50 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300">
         <i class="fas fa-cogs text-xl"></i>
         <span>Lihat Layanan Kami</span>
         <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform duration-300"></i>
       </a>
     </div>
 
-    <!-- Trust Indicators -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-        <div class="text-3xl font-bold text-blue-700 mb-2">50+</div>
-        <div class="text-gray-700 font-medium" style="font-size: 15px;">Klien Aktif</div>
+    <!-- Services Preview -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-5xl mx-auto">
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-bullhorn text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Publikasi Usaha</div>
       </div>
-      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-        <div class="text-3xl font-bold text-blue-700 mb-2">6</div>
-        <div class="text-gray-700 font-medium" style="font-size: 15px;">Layanan Digital</div>
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-bolt text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Brand Activation</div>
       </div>
-      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-        <div class="text-3xl font-bold text-blue-700 mb-2">100%</div>
-        <div class="text-gray-700 font-medium" style="font-size: 15px;">Kepuasan Klien</div>
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-search text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Artikel SEO</div>
       </div>
-      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-        <div class="text-3xl font-bold text-blue-700 mb-2">SEO</div>
-        <div class="text-gray-700 font-medium" style="font-size: 15px;">Optimasi Website</div>
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-link text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Backlink</div>
+      </div>
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-cogs text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Website Management</div>
+      </div>
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20 hover:bg-white/20 transition-all duration-300">
+        <i class="fas fa-user-tie text-xl text-blue-300 mb-2"></i>
+        <div class="text-sm font-medium">Personal Branding</div>
       </div>
     </div>
 
-    <!-- Scroll Indicator -->
-    <div class="mt-20 flex justify-center">
-      <a href="#about" 
-         class="group flex flex-col items-center text-gray-500 hover:text-blue-600 transition-colors duration-300">
-        <span class="text-sm mb-2 font-medium" style="font-size: 15px;">Explore More</span>
-        <div class="w-6 h-10 border-2 border-gray-300 group-hover:border-blue-500 rounded-full flex justify-center pt-2">
-          <div class="w-1 h-3 bg-gray-400 group-hover:bg-blue-500 rounded-full animate-bounce"></div>
-        </div>
-      </a>
+    <!-- Stats -->
+    <div class="mt-16 flex flex-wrap justify-center gap-8">
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white mb-1">50+</div>
+        <div class="text-blue-200 text-sm">Klien Aktif</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white mb-1">6</div>
+        <div class="text-blue-200 text-sm">Layanan Digital</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white mb-1">100%</div>
+        <div class="text-blue-200 text-sm">Kepuasan Klien</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white mb-1">24/7</div>
+        <div class="text-blue-200 text-sm">Support</div>
+      </div>
     </div>
   </div>
 </section>
+
+  
 <!-- ===== ABOUT MODERN WITH ILLUSTRATION ===== -->
 <section id="about" class="py-24 bg-gradient-to-b from-white to-blue-50/30">
   <div class="container mx-auto px-6">
